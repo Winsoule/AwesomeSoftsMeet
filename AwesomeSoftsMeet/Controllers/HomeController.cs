@@ -12,7 +12,7 @@ namespace AwesomeSoftsMeet.Controllers
 		{
 			_meetings = new List<Meeting>();
 
-			_meetings.Add(Room.MakeMeeting(new System.DateTime(2021, 04, 27, 16, 00, 00), new System.DateTime(2021, 04, 27, 17, 00, 00), "jg334", "j.hoengaard@gmail.com, aohge@gien.com, oijrgr@gaipn.dk"));
+			
 		}
 
 		public ActionResult Index()
